@@ -4,7 +4,7 @@ import './synthesizer.css';
 class Synthesizer extends Component {
   render() {
     return (
-      <div>
+      <div className="synthesizer">
 
       </div>
     );

@@ -1,0 +1,25 @@
+.DUO{
+  /*background-image: url("../../images/blackmetal.png");*/
+  background-color: black;
+  display: grid;
+  height: 570px;
+  width: 630px;
+  border-radius: 15px;
+  grid-template-areas: "l-screen r-screen"
+                       "l-knob r-knob"
+                        "handle" "handle"
+                       "l-button r-button";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+.l-screen{
+  margin-left: 60px;
+  margin-right: 15px;
+}
+
+.r-screen{
+  margin-left: 15px;
+  margin-right:60px;
+}
