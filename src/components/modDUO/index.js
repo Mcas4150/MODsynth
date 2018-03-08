@@ -19,7 +19,9 @@ class ModDUO extends Component {
           <div className="r-knob">
             <Knob/>
           </div>
-          <div className="handle"></div>
+          <div className="handle">
+            <div className="metal-handle"></div>
+          </div>
           <div className="l-button"></div>
           <div className="r-button"></div>
       </div>

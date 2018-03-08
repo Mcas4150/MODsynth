@@ -1,7 +1,52 @@
 .screen{
-  margin-top: 60px;
   background-color: #b6e8fe;
+  color: #6981af;
   height: 150px;
   width: 240px;
   border-radius: 10px;
+  font-size:18px;
+  display: grid;
+  grid-template-areas: "parameter-name parameter-id"
+                       "visual"
+                       "module-name module-info";
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
 }
+
+.display{
+  padding: 15px 7.5px 7.5px 7.5px;
+}
+
+
+.top-panel{
+  border-bottom: 1px solid #6981af;
+  display:flex;
+}
+
+.bottom-panel{
+  display: flex;
+}
+
+
+.parameter-name{
+  grid-area: parameter-name;
+}
+
+.parameter-id{
+  grid-area: parameter-id;
+  float:right;
+}
+
+.visual{
+  grid-area: visual;
+}
+
+.module-name{
+  grid-area: module-name;
+}
+
+.module-info{
+  grid-area: module-info;
+}
+
+

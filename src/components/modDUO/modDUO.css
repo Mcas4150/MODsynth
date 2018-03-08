@@ -23,6 +23,10 @@
   grid-area: r-screen;
 }
 
+.r-screen, .l-screen{
+  margin-top: 60px;
+}
+
 .l-knob{
   grid-area: l-knob;
 }
@@ -56,4 +60,14 @@
 .r-knob, .l-knob{
   display: flex;
   justify-content: center
+}
+
+
+
+.metal-handle{
+   background-image: url("../../images/shinymetal.jpeg");
+   width:330px;
+   height: 30px;
+   margin: 15px 150px 0px 150px;
+   border-radius: 20%;
 }

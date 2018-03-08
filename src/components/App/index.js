@@ -7,7 +7,7 @@ import ModDUO from '../modDUO/index';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App flex-center">
         <div className="instruments flex-center">
           <ModDUO/>
         </div>
