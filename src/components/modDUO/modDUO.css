@@ -7,12 +7,41 @@
   border-radius: 15px;
   grid-template-areas: "l-screen r-screen"
                        "l-knob r-knob"
-                        "handle" "handle"
+                        "handle handle"
                        "l-button r-button";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+
+
+.l-screen{
+  grid-area: l-screen;
+}
+
+.r-screen{
+  grid-area: r-screen;
+}
+
+.l-knob{
+  grid-area: l-knob;
+}
+
+.r-knob{
+  grid-area: r-knob;
+}
+
+.handle{
+  grid-area: handle;
+}
+
+.l-button{
+  grid-area: l-button;
+}
+
+.r-button{
+  grid-area: r-button;
+}
 
 .l-screen, .l-knob{
   margin-left: 60px;
