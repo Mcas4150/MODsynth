@@ -7,7 +7,7 @@
   border-radius: 15px;
   grid-template-areas: "l-screen r-screen"
                        "l-knob r-knob"
-                        "handle handle"
+                        "input-output input-output"
                        "l-button r-button";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -35,8 +35,8 @@
   grid-area: r-knob;
 }
 
-.handle{
-  grid-area: handle;
+.input-output{
+  grid-area: input-output;
 }
 
 .l-button{
@@ -66,8 +66,8 @@
 
 .metal-handle{
    background-image: url("../../images/shinymetal.jpeg");
-   width:330px;
+   width:300px;
    height: 30px;
-   margin: 15px 150px 0px 150px;
+   margin: 30px 165px 0px 165px;
    border-radius: 20%;
 }

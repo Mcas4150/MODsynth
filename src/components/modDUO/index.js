@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './modDUO.css';
 import Screen from '../screen/index';
-import Knob from '../knob/index';
+import Knobby from '../knob/index';
 
 class ModDUO extends Component {
   render() {
@@ -14,12 +14,12 @@ class ModDUO extends Component {
             <Screen/>
           </div>
           <div className="l-knob">
-            <Knob/>
+            <Knobby/>
           </div>
           <div className="r-knob">
-            <Knob/>
+            <Knobby/>
           </div>
-          <div className="handle">
+          <div className="input-output">
             <div className="metal-handle"></div>
           </div>
           <div className="l-button"></div>

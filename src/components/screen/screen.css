@@ -5,6 +5,7 @@
   width: 240px;
   border-radius: 10px;
   font-size:18px;
+  font-weight: 600;
   display: grid;
   grid-template-areas: "parameter-name parameter-id"
                        "visual"
