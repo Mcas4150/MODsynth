@@ -1,5 +1,5 @@
 .DUO{
-  /*background-image: url("../../images/blackmetal.png");*/
+/*  background-image: url("../../images/alum.jpg");*/
   background-color: black;
   display: grid;
   height: 570px;
@@ -14,12 +14,17 @@
 }
 
 
-.l-screen{
+.l-screen, .l-knob{
   margin-left: 60px;
   margin-right: 15px;
 }
 
-.r-screen{
+.r-screen, .r-knob{
   margin-left: 15px;
   margin-right:60px;
+}
+
+.r-knob, .l-knob{
+  display: flex;
+  justify-content: center
 }
